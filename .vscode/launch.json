@@ -1,0 +1,117 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch EjercicioPrueba",
+            "request": "launch",
+            "mainClass": "EjercicioPrueba",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Args",
+            "request": "launch",
+            "mainClass": "Args",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio8",
+            "request": "launch",
+            "mainClass": "Ejercicio8",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "args": "1",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "args": "Michel",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch EjercicioPrueba",
+            "request": "launch",
+            "mainClass": "EjercicioPrueba",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "args": "5",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "projectName": "Unidad1 - Practica1_ca7f4811"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prueba",
+            "request": "launch",
+            "mainClass": "Prueba",
+            "args": "1 5",
+            "projectName": "Unidad1 - Practica1_a2a12e84"
+        }
+    ]
+}
