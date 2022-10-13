@@ -18,7 +18,7 @@ public class Ejercicio3 {
   
     }
 
-    public static int calculoFactorial(int numeroARGS, int resultado,int contador){
+    public static double calculoFactorial(int numeroARGS, double resultado,int contador){
         
         resultado*=contador;
         //System.out.println(contador +" : "+ resultado);
