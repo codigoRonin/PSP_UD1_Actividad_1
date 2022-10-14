@@ -9,7 +9,7 @@ public class Ejercicio6 {
         File file = new File(".\\bin");
         Process proceso;
 
-        ProcessBuilder processBuilder = new ProcessBuilder("java","Ejercicio5","Sergio");
+        ProcessBuilder processBuilder = new ProcessBuilder("java","Ejercicio5");
         processBuilder.directory(file);
 
         try {
@@ -19,6 +19,15 @@ public class Ejercicio6 {
 
             while ((caracterUnicode = inputStream.read()) != -1) {
                 System.out.print((char)caracterUnicode);
+            }
+
+            try {
+                int valorDeSalida = proceso.waitFor();
+                System.out.println("el valor de salida es: "+valorDeSalida);
+            
+            } catch (InterruptedException interruptedException) {
+                
+                interruptedException.printStackTrace();
             }
 
         } catch (Exception exception) {

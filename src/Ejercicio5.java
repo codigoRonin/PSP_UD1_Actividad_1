@@ -3,15 +3,16 @@ public class Ejercicio5 {
 Utiliza valor 0 para una finalización correcta y valor 
 -1 para el caso de que no se hayan introducido argumentos correctos en el main. */
     public static void main(String[] args) {
-        
-        String nombre = args.length == 0 ? "-1" : args[0];
                 
-        if(nombre.equals("-1")){
-            System.out.println(nombre);
-            System.exit(-1);
-        }else{
-            System.out.println("Hola "+ nombre);
+        try {
+
+            System.out.println("hola "+ args[0]);
             System.exit(0);
+
+        } catch (ArrayIndexOutOfBoundsException exception) {
+
+            exception.printStackTrace();
+            System.exit(-1);
         }
     }
 }
