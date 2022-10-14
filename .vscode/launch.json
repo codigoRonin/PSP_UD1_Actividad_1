@@ -6,10 +6,24 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Launch Ejercicio5",
             "request": "launch",
             "mainClass": "Ejercicio5",
             "projectName": "PSP_UD1_Actividad_1_3be58e90"
+=======
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+>>>>>>> a1581a7ebd81aeb12404d62ceec5805fef084a3b
         },
         {
             "type": "java",
