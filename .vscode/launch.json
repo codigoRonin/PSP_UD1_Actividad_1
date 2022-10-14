@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio4",
             "request": "launch",
             "mainClass": "Ejercicio4",
