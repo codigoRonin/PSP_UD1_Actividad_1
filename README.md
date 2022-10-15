@@ -6,7 +6,7 @@
 
 3.	Crea un programa sencillo que calcule el factorial de un número recibido como parámetro del método main.(Utiliza Recursividad)
 
-4.	Crea un programa que, ejecutando Ejercicio3, nos calcule el cuadrado del factorial de un número dado por teclado.
+4.	Crea un programa que, ejecutando Ejercicio3, nos calcule el factorial del cuadrado de un número dado por teclado.
 
 5.	Crea un programa que reciba desde los argumentos del método Main() un nombre y lo visualice en pantalla. Utiliza valor 0 para una finalización correcta y valor -1 para el caso de que no se hayan introducido argumentos correctos en el main.
 
