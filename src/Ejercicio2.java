@@ -1,5 +1,4 @@
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -8,14 +7,12 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args) {
 
-        ProcessBuilder processBuilder = new ProcessBuilder("cmd", "/c", "tree");
-
         Scanner stdin = new Scanner(System.in);
         System.out.print("Introduzca la ruta: ");
         String ruta = stdin.next();
-        File file = new File(ruta);
 
-        processBuilder.directory(file);
+        ProcessBuilder processBuilder = new ProcessBuilder("cmd", "/c", "tree", ruta);
+
         stdin.close();
         try{
             Process process = processBuilder.start();
