@@ -9,6 +9,77 @@
             "name": "Launch Ejercicio10",
             "request": "launch",
             "mainClass": "Ejercicio10",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio9",
+            "request": "launch",
+            "mainClass": "Ejercicio9",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio8",
+            "request": "launch",
+            "mainClass": "Ejercicio8",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio5",
+            "request": "launch",
+            "mainClass": "Ejercicio5",
+            "args": "jassi",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio2",
+            "request": "launch",
+            "mainClass": "Ejercicio2",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "PSP_UD1_Actividad_1_5644cbf9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
             "projectName": "Unidad 1 - Practica 1_b34bf6e3"
         },
         {
