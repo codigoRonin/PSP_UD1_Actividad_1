@@ -1,14 +1,20 @@
 import java.io.File;
 import java.io.InputStream;
+import java.util.Scanner;
 
 public class Ejercicio4 {
-    public static void main(String[] args) {
-        
-        /*Crea un programa que, ejecutando Ejercicio3, nos calcule el cuadrado del factorial de un número dado por teclado.*/
-        Process proceso;
-        File file = new File(".\\bin");
+    /*Crea un programa que, ejecutando Ejercicio3, nos calcule el cuadrado del factorial de un número dado por teclado.*/
 
-        ProcessBuilder processBuilder = new ProcessBuilder("java", "Ejercicio3","10");
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Process proceso;
+       
+        System.out.println("Introduce numero por teclado");
+        String numeroTeclado = String.valueOf(scanner.nextInt());
+
+        File file = new File(".\\bin");
+        
+        ProcessBuilder processBuilder = new ProcessBuilder("java", "Ejercicio3",numeroTeclado);
 
         processBuilder.directory(file);
 
@@ -26,14 +32,13 @@ public class Ejercicio4 {
             }
 
             inputStream.close();
-
-            System.out.print(output);
+            double numero = Double.parseDouble(output);
             
-            double numero = Integer.parseInt(output.split(": ")[1].replaceAll("\r\n", ""));
+            //double numero = Double.parseDouble(output.split(": ")[1].replaceAll("\r\n", ""));
 
             // String [] cadena = output.split(": ");//guardado en dos posiciones en array
             // cadena[1] = cadena[1].replaceAll("\r\n","");//me quedo con posicion 1 y suprimo el ln
-            // int numero = Integer.parseInt(cadena[1]);//transformo string a int
+            // double numero = Double.parseDouble(cadena[1]);//transformo string a double
             
             System.out.println("el resultado al cuadrado es: " + numero*numero);
                     

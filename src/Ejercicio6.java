@@ -9,7 +9,7 @@ public class Ejercicio6 {
         File file = new File(".\\bin");
         Process proceso;
 
-        ProcessBuilder processBuilder = new ProcessBuilder("java","Ejercicio5");
+        ProcessBuilder processBuilder = new ProcessBuilder("java","Ejercicio5","sergio");
         processBuilder.directory(file);
 
         try {

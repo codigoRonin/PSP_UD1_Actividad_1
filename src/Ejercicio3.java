@@ -4,29 +4,21 @@ public class Ejercicio3 {
      * parámetro del método main.(Utiliza Recursividad)
      */
     public static void main(String[] args) {
-
-        int numero = args.length == 0 ? 7 : Integer.parseInt(args[0]);
-         
-        System.out.println("el resultado es: " + calculoFactorial(numero, 1, 1));
         
-        //int resultado = 1;
-        // for (int i = 1; i <= numero; i++) {
-        // resultado*=i;
-        // System.out.println(i +" : "+ resultado);
-        // }
-        // System.out.println("el resultado es: "+resultado);
+        double numero = factorial (Double.parseDouble(args[0]));
+
+        //System.out.println("el resultado es: "+numero);
+        System.out.print(numero);
   
     }
 
-    public static double calculoFactorial(int numeroARGS, double resultado,int contador){
+    public static double factorial (double numero){
         
-        resultado*=contador;
-        //System.out.println(contador +" : "+ resultado);
-        if(contador++ < numeroARGS){
-            return calculoFactorial(numeroARGS,resultado,contador);
+        if (numero == 1){
+            return 1;
         }
-                
-        return resultado;
+    
+        return numero* factorial(numero-1);
     }
-
+ 
 }

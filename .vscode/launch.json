@@ -6,12 +6,47 @@
     "configurations": [
         {
             "type": "java",
-<<<<<<< HEAD
+            "name": "Launch Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
+            "projectName": "PSP_UD1_Actividad_1-1_f70c54c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "PSP_UD1_Actividad_1-1_f70c54c3"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio5",
             "request": "launch",
             "mainClass": "Ejercicio5",
-            "projectName": "PSP_UD1_Actividad_1_3be58e90"
-=======
+            "projectName": "PSP_UD1_Actividad_1-1_f70c54c3",
+            "args": [
+                "sergio"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "PSP_UD1_Actividad_1-1_f70c54c3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "projectName": "PSP_UD1_Actividad_1-1_f70c54c3",
+            "args": [
+                "7"
+            ]
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio6",
             "request": "launch",
             "mainClass": "Ejercicio6",
@@ -19,24 +54,9 @@
         },
         {
             "type": "java",
-            "name": "Launch Ejercicio5",
-            "request": "launch",
-            "mainClass": "Ejercicio5",
-            "projectName": "PSP_UD1_Actividad_1_b120a972"
->>>>>>> a1581a7ebd81aeb12404d62ceec5805fef084a3b
-        },
-        {
-            "type": "java",
             "name": "Launch Ejercicio4",
             "request": "launch",
             "mainClass": "Ejercicio4",
-            "projectName": "PSP_UD1_Actividad_1_3be58e90"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ejercicio3",
-            "request": "launch",
-            "mainClass": "Ejercicio3",
             "projectName": "PSP_UD1_Actividad_1_3be58e90"
         },
         {
@@ -100,7 +120,7 @@
             "name": "Launch Ejercicio7",
             "request": "launch",
             "mainClass": "Ejercicio7",
-            "args": "1",
+            "args": ["1","3","6"],
             "projectName": "Unidad1 - Practica1_ca7f4811"
         },
         {
@@ -108,14 +128,6 @@
             "name": "Launch Ejercicio6",
             "request": "launch",
             "mainClass": "Ejercicio6",
-            "projectName": "Unidad1 - Practica1_ca7f4811"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ejercicio5",
-            "request": "launch",
-            "mainClass": "Ejercicio5",
-            "args": "Michel",
             "projectName": "Unidad1 - Practica1_ca7f4811"
         },
         {
