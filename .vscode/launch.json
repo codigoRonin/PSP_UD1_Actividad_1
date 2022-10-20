@@ -9,6 +9,20 @@
             "name": "Launch Ejercicio7",
             "request": "launch",
             "mainClass": "Ejercicio7",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio10",
+            "request": "launch",
+            "mainClass": "Ejercicio10",
+            "projectName": "PSP_UD1_Actividad_1_b120a972"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio7",
+            "request": "launch",
+            "mainClass": "Ejercicio7",
             "projectName": "PSP_UD1_Actividad_1-1_f70c54c3"
         },
         {
@@ -120,7 +134,11 @@
             "name": "Launch Ejercicio7",
             "request": "launch",
             "mainClass": "Ejercicio7",
-            "args": ["1","3","6"],
+            "args": [
+                "1",
+                "3",
+                "6"
+            ],
             "projectName": "Unidad1 - Practica1_ca7f4811"
         },
         {
