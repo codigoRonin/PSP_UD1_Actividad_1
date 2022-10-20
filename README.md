@@ -6,7 +6,7 @@
 
 3.	Crea un programa sencillo que calcule el factorial de un número recibido como parámetro del método main.(Utiliza Recursividad)
 
-4.	Crea un programa que, ejecutando Ejercicio3, nos calcule el cuadrado del factorial de un número dado por teclado.
+4.	Crea un programa que, ejecutando Ejercicio3, nos calcule el factorial del cuadrado de un número dado por teclado.
 
 5.	Crea un programa que reciba desde los argumentos del método Main() un nombre y lo visualice en pantalla. Utiliza valor 0 para una finalización correcta y valor -1 para el caso de que no se hayan introducido argumentos correctos en el main.
 
@@ -14,10 +14,10 @@
 
 7.	Crea un programa en Java que admita argumentos desde el método main() y devuelva con System.exit() los siguientes valores:
 
-    a.	Si el número de argumentos es <1 debe devolver 1
-    b.	Si el argumento es una cadena debe devolver 2
-    c.	Si el argumento es un número menor que 0 debe devolver 3
-    d.	En cualquier otro caso devolverá 0.
+    -	Si el número de argumentos es < 1 debe devolver 1
+    -	Si el argumento es una cadena debe devolver 2
+    -	Si el argumento es un número menor que 0 debe devolver 3
+    -	En cualquier otro caso devolverá 0.
 
 8.	Realiza un programa para ejecutar Ejercicio7 y ejecutalo comprobando que el código de salida es correcto en todos los casos.
 
