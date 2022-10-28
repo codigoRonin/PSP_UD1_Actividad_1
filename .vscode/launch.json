@@ -6,6 +6,42 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Ejercicio6",
+            "request": "launch",
+            "mainClass": "Ejercicio6",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch PruebaRandom",
+            "request": "launch",
+            "mainClass": "PruebaRandom",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio4",
+            "request": "launch",
+            "mainClass": "Ejercicio4",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio3",
+            "request": "launch",
+            "mainClass": "Ejercicio3",
+            "args": "5",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Ejercicio1",
+            "request": "launch",
+            "mainClass": "Ejercicio1",
+            "projectName": "Unidad 1 - Practica 1_b34bf6e3"
+        },
+        {
+            "type": "java",
             "name": "Launch Ejercicio10",
             "request": "launch",
             "mainClass": "Ejercicio10",
@@ -81,14 +117,6 @@
             "name": "Launch Ejercicio4",
             "request": "launch",
             "mainClass": "Ejercicio4",
-            "projectName": "Unidad1 - Practica1_ca7f4811"
-        },
-        {
-            "type": "java",
-            "name": "Launch Ejercicio3",
-            "request": "launch",
-            "mainClass": "Ejercicio3",
-            "args": "5",
             "projectName": "Unidad1 - Practica1_ca7f4811"
         },
         {
